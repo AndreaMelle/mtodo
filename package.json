@@ -1,0 +1,43 @@
+{
+  "name": "mtodo",
+  "version": "0.0.1",
+  "description": "A TODO list based on the MEAN stack",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "bower install --config.interactive=false"
+  },
+  "author": "Andrea Melle",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "bower": "^1.6.5",
+    "compression": "^1.6.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^0.8.2",
+    "consolidate": "^0.13.1",
+    "cookie-parser": "^1.4.0",
+    "express": "^4.13.3",
+    "express-session": "^1.12.1",
+    "glob": "^5.0.15",
+    "grunt-cli": "^0.1.13",
+    "helmet": "^0.13.0",
+    "lodash": "^3.10.1",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.2.3",
+    "morgan": "^1.6.1",
+    "passport": "^0.3.0",
+    "passport-google-oauth": "^0.2.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-concurrent": "^2.0.4",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-env": "^0.4.4",
+    "grunt-nodemon": "^0.4.0",
+    "load-grunt-tasks": "^3.3.0"
+  }
+}

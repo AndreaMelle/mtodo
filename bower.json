@@ -1,0 +1,17 @@
+{
+  "name": "mtodo",
+  "version": "0.0.1",
+  "description": "A TODO list based on the MEAN stack",
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "angular": "~1.4.7",
+    "angular-bootstrap": "~0.14.3",
+    "angular-resource": "~1.4.7",
+    "angular-cookies": "~1.4.7",
+    "angular-touch": "~1.4.7",
+    "angular-sanitize": "~1.4.7",
+    "angular-ui-utils": "~3.0.0",
+    "angular-ui-router": "~0.2.15",
+    "angular-animate": "~1.4.7"
+  }
+}
