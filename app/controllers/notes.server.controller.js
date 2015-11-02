@@ -40,7 +40,7 @@ exports.create = function(req, res) {
 exports.list = function(req, res) {
   Note.find({
     user: req.user
-  }).sort('-created').populate('user').exec(function(err, notes) {
+  }).sort('-created').limit(20).populate('user').exec(function(err, notes) {
     if(err) return res.status(400).send({message: getErrorMessage(err)});
     else res.json(notes);
   });
@@ -60,7 +60,7 @@ exports.update = function(req, res) {
 };
 
 exports.delete = function(req, res) {
-  var note = req.article;
+  var note = req.note;
   note.remove(function(err) {
     if(err) return res.status(400).send({message: getErrorMessage(err)});
     else res.json(note);

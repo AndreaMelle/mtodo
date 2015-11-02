@@ -56,6 +56,15 @@ module.exports = function(grunt)
       }
     },
 
+    csslint: {
+			options: {
+				csslintrc: '.csslintrc',
+			},
+			all: {
+				src: watchFiles.clientCSS
+			}
+		},
+
     nodemon: {
       dev: {
         script: 'server.js',
